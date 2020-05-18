@@ -1,0 +1,23 @@
+geo $limit {
+	default 1; # Default behaviour will return $limit as 1 and so standard rate limit will apply
+
+	# IP ranges below are allowed greater rate limit, $limit returned as 0
+
+	### Alamy Offices ###
+	115.248.217.168/29 0;
+	115.254.95.144/29 0;
+	61.12.43.208/29 0;
+	62.3.225.110/32 0;
+	185.55.61.176/28 0;
+	5.148.40.208/28 0;
+	38.117.159.184/29 0;
+	89.151.93.128/27 0;
+	46.236.11.192/27 0;
+	192.168.16.0/22 0;
+
+}
+
+map $limit $limit_key {
+	0 "";
+	1 $binary_remote_addr;
+}

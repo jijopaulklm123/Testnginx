@@ -1,0 +1,23 @@
+allow 115.248.217.168/29; # Alamy IN Reliance1-external
+
+allow 115.254.95.144/29; # Alamy IN Reliance2-external
+
+allow 61.12.43.208/29; # Alamy IN Tata-external
+
+allow 62.3.225.110/32; # Alamy MP TalkTalk ADSL-external
+
+allow 185.55.61.176/28; # Alamy MP CTS-external
+
+allow 5.148.40.208/28; # Alamy MP Expo-E-external
+
+allow 38.117.159.184/29; # Alamy NY EOT-external
+
+allow 100.12.66.0/24; # Alamy NY Verizon FiOS-external
+
+allow 89.151.93.128/27; # Alamy RG Colo TVH1-external
+
+allow 46.236.11.192/27; # Alamy RG Colo TVH2-external
+
+allow 212.187.244.224/27; # Alamy TC Colo Level3-external
+
+allow 31.221.62.224/28; # Alamy TC Colo Expo-E-external
