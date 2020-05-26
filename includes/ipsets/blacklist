@@ -1,4 +1,4 @@
-New Test:
+update Test
 deny 104.145.225.178; # password reset
 deny 104.145.225.90; # Blocked on 20Aug17 Ref #191180
 deny 107.182.226.5; # Duplicate registrations #193824 
